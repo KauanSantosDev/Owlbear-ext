@@ -1,4 +1,4 @@
 // você edita arquivos no VSCode
 git add .
-git commit -m "Nova feature de rolagem"
+git commit -m "Nova atualização"
 git push origin main
