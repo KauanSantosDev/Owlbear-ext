@@ -1,4 +1,4 @@
-import OBR from "@owlbear-rodeo/sdk";
+import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@1.5.2/+esm";
 
 export async function tryRoll(text) {
     const normalized = text.replace(/\s*([+-])\s*(\d+)/g, "$1$2");
