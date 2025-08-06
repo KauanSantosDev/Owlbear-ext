@@ -2,13 +2,13 @@
     "name": "Bispo_Rolagens",
     "version": "1.0.0",
     "manifest_version": 1,
-    "actions": [
-        {
-            "title": "Bispo_Rolagens",
-            "icon": "/icon.svg",
-            "popover": "/",
-            "width": 600,
-            "height": 600
-        }
-    ]
+    "icon": "/icon.svg",
+    "window": {
+        "url": "/",
+        "height": 600,
+        "width": 600
+    },
+    "entry": {
+        "type": "plugin"
+    }
 }
