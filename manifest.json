@@ -3,13 +3,10 @@
     "version": "1.0.0",
     "manifest_version": 1,
     "icon": "https://kauansantosdev.github.io/Owlbear-ext/icon.svg",
-    "entry": {
-        "type": "script",
-        "script": "https://kauansantosdev.github.io/Owlbear-ext/index.js"
-    },
-    "window": {
-        "url": "https://kauansantosdev.github.io/Owlbear-ext/",
-        "width": 600,
-        "height": 600
+    "entryPoints": {
+        "plugin": {
+            "script": "https://kauansantosdev.github.io/Owlbear-ext/index.js",
+            "url": "https://kauansantosdev.github.io/Owlbear-ext/"
+        }
     }
 }
