@@ -1,4 +1,4 @@
-import OBR from "@owlbear-rodeo/sdk";
+import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@1.5.2/+esm";
 import { initChat } from "https://kauansantosdev.github.io/Owlbear-ext/01%20chat.js";
 import { initGM } from "https://kauansantosdev.github.io/Owlbear-ext/03%20gmMenu.js";
 
