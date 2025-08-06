@@ -1,4 +1,4 @@
 // você edita arquivos no VSCode
 git add .
-git commit -m "Nova atualização"
+git commit -m "Mudança de nome"
 git push origin main

@@ -1,6 +1,6 @@
 import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@1.5.2/+esm";
-import { initChat } from "https://kauansantosdev.github.io/Owlbear-ext/01%20chat.js";
-import { initGM } from "https://kauansantosdev.github.io/Owlbear-ext/03%20gmMenu.js";
+import { initChat } from "https://kauansantosdev.github.io/Owlbear-ext/01chat.js";
+import { initGM } from "https://kauansantosdev.github.io/Owlbear-ext/03gmMenu.js";
 
 OBR.onReady(async () => {
     const mensagensDiv = document.getElementById("mensagens");
