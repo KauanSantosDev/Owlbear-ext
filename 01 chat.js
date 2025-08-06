@@ -1,4 +1,4 @@
-import OBR from "@owlbear-rodeo/sdk";
+import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@1.5.2/+esm";
 import { CHAT_KEY, loadChat, saveChat } from "https://kauansantosdev.github.io/Owlbear-ext/05%20storage.js";
 import { tryRoll } from "https://kauansantosdev.github.io/Owlbear-ext/02%20dice.js";
 
