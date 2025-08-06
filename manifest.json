@@ -1,15 +1,15 @@
 {
     "name": "Bispo_Rolagens",
     "version": "1.0.0",
-    "manifest version": 1,
-    "icon": "/icon.svg",
-    "window": {
-        "url": "/",
-        "height": 600,
-        "width": 600
-    },
+    "manifest_version": 1,
+    "icon": "https://kauansantosdev.github.io/Owlbear-ext/icon.svg",
     "entry": {
         "type": "script",
-        "script": "/index.js"
+        "script": "https://kauansantosdev.github.io/Owlbear-ext/index.js"
+    },
+    "window": {
+        "url": "https://kauansantosdev.github.io/Owlbear-ext/",
+        "width": 600,
+        "height": 600
     }
 }
