@@ -1,7 +1,7 @@
 {
     "name": "Bispo_Rolagens",
     "version": "1.0.0",
-    "manifest_version": 1,
+    "manifest version": 1,
     "icon": "/icon.svg",
     "window": {
         "url": "/",
@@ -9,6 +9,7 @@
         "width": 600
     },
     "entry": {
-        "type": "plugin"
+        "type": "script",
+        "script": "/index.js"
     }
 }
