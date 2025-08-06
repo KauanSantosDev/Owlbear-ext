@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
@@ -7,7 +8,7 @@ export default defineConfig({
             targets: [
                 {
                     src: 'public/manifest.json',
-                    dest: '' // isso vai copiar para a pasta raiz do dist
+                    dest: '' // Isso vai copiar para a raiz do dist/
                 }
             ]
         })
