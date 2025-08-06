@@ -1,4 +1,4 @@
-import OBR from "@owlbear-rodeo/sdk";
+import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@1.5.2/+esm";
 import { saveChat, updateSecureMetadata } from "./05 storage.js";
 
 export async function initGM({ gmBtn, gmModal, gmClose }) {
