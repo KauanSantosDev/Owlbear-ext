@@ -1,5 +1,5 @@
 import OBR from "@owlbear-rodeo/sdk";
-import { saveChat, updateSecureMetadata } from "./storage.js";
+import { saveChat, updateSecureMetadata } from "./05 storage.js";
 
 export async function initGM({ gmBtn, gmModal, gmClose }) {
     const role = await OBR.player.getRole();

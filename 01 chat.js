@@ -1,6 +1,6 @@
 import OBR from "@owlbear-rodeo/sdk";
-import { CHAT_KEY, loadChat, saveChat } from "./storage.js";
-import { tryRoll } from "./dice.js";
+import { CHAT_KEY, loadChat, saveChat } from "./05 storage.js";
+import { tryRoll } from "./02 dice.js";
 
 export async function initChat({ mensagensDiv, entradaInput, enviarBtn }) {
     let chat = await loadChat();
